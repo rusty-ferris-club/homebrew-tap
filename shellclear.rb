@@ -1,4 +1,4 @@
-class Backpack < Formula
+class Shellclear < Formula
     desc "Secure shell history commands"
     homepage "https://github.com/rusty-ferris-club/shellclear"
     version "-----"
