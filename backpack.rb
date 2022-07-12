@@ -8,6 +8,5 @@ class Backpack < Formula
     def install
       bin.install "bp"
       ln_s bin/"bp", bin/"backpack"
-      bin.install_symlink "backpack"
     end
 end
