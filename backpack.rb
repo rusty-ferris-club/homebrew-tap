@@ -1,9 +1,9 @@
 class Backpack < Formula
     desc "Create projects from existing repos"
     homepage "https://github.com/rusty-ferris-club/backpack"
-    version "1.0.1"
-    url "https://github.com/rusty-ferris-club/backpack/releases/download/v1.0.1/backpack-v1.0.1-x86_64-macos.tar.xz"
-    sha256 "a7ea64a2a2e44b1361f598018d78625d6145fbf28b5d0fcc029aa5a793c10ec5"
+    version "1.1.2"
+    url "https://github.com/rusty-ferris-club/backpack/releases/download/v1.1.2/backpack-v1.1.2-x86_64-macos.tar.xz"
+    sha256 "9b7dfb69f764b2e90a4d4f3be1ecde7ee423d273905afe6bb3cd9f9f32b1a4ec"
 
     def install
       bin.install "bp"
