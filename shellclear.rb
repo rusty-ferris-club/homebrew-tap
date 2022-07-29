@@ -5,6 +5,13 @@ class Shellclear < Formula
     url "https://github.com/rusty-ferris-club/shellclear/releases/download/v0.2.3/shellclear-v0.2.3-x86_64-macos.tar.xz"
     sha256 "a89fd10977f92e39176b141c1063a4ba04ce9cdaa6388d78a3b8561a1d3ad673"
     
+    def caveats
+      <<~EOS
+        If you want to shellclear summary while your open a new terminal, add the following command to your shell profile
+          eval $(shellclear --init-shell)
+      EOS
+    end
+
     def install
       bin.install "shellclear"
     end
