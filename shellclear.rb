@@ -1,9 +1,9 @@
 class Shellclear < Formula
     desc "Secure shell history commands"
     homepage "https://github.com/rusty-ferris-club/shellclear"
-    version "0.3.1"    
-    url "https://github.com/rusty-ferris-club/shellclear/releases/download/v0.3.1/shellclear-v0.3.1-x86_64-macos.tar.xz"
-    sha256 "a28131fd2f484b878f24b5560b474ae1fcc93917203e75e2c7596c2eddda8aad"
+    version "0.4.0"    
+    url "https://github.com/rusty-ferris-club/shellclear/releases/download/v0.4.0/shellclear-v0.4.0-x86_64-macos.tar.xz"
+    sha256 "d681668381396c67585acd5c7889a0f9fe3ace597d60a037fb40e14045898169"
     
     def caveats
       <<~EOS
