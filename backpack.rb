@@ -1,4 +1,4 @@
-class backpack < Formula
+class Backpack < Formula
   desc "🎒 CLI to create starters from repos + Templates 🤖 + Actions 🚀"
   homepage "http://github.com/rusty-ferris-club/backpack"
   url "https://github.com/rusty-ferris-club/backpack/releases/download/v2.1.1/backpack-x86_64-macos.tar.xz"
